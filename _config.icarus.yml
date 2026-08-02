@@ -165,9 +165,26 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
-    # Disqus shortname
-    shortname: ''
+    type: waline
+    # Waline 服务端地址（必填）
+    # 部署 Waline 后得到形如 https://xxx.vercel.app 的地址
+    server_url: https://your-waline.vercel.app
+    # 评论使用的语言
+    lang: zh-CN
+    # 是否开启暗色模式适配（auto 跟随系统）
+    dark: auto
+    # 评论者需要填写的字段：nick(昵称) mail(邮箱) link(网址)
+    meta: [nick, mail, link]
+    # 必填字段
+    required_meta: [nick]
+    # 登录模式: enable(可匿名可登录) disable(只能匿名) force(必须登录)
+    login: enable
+    # 评论字数限制, 0 表示不限制
+    word_limit: 0
+    # 每页评论数
+    page_size: 10
+    # 是否显示阅读量
+    pageview: true
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
