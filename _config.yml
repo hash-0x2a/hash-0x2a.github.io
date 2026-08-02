@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://hash-0x2a.github.io
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -128,3 +128,31 @@ hide_posts:
   public_generates: true
   # 给隐藏文章页面加 noindex，防止被搜索引擎收录
   noindex: true
+
+# Feed (RSS)
+## Docs: https://github.com/hexojs/hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+
+# Sitemap
+## Docs: https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+
+# Abbrlink (固定短链接)
+## Docs: https://github.com/rozbo/hexo-abbrlink
+## 用 crc32 哈希生成固定短链接，替代 :year/:month/:day/:title 格式
+abbrlink:
+  alg: crc32      # crc16 或 crc32
+  rep: hex        # hex（数字）或 dec（十进制）
+  drafts: false
+  # Generate from title or date, default is title
+  # If you enable this option, the abbrlink will be generated from date
+  force: false
