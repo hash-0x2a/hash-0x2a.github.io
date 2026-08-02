@@ -117,3 +117,14 @@ encrypt:
   #   - 私密
   # 全局默认密码（可选，给所有文章加默认密码）
   # default_password:
+
+# Hide Posts
+## Docs: https://github.com/printempw/hexo-hide-posts
+hide_posts:
+  enable: true
+  # 用 front-matter 中的哪个字段标记隐藏（默认 hidden: true）
+  filter: hidden
+  # 隐藏的文章仍生成页面（知道链接的读者可直接访问）
+  public_generates: true
+  # 给隐藏文章页面加 noindex，防止被搜索引擎收录
+  noindex: true
