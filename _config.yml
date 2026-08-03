@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: 0x2a's Blog
+subtitle: 'A blog about technology and programming'
+description: 'this is 0x2a blog, welcome to visit, hope you can find something useful here.'
+keywords: 
+author: 0x2a
 language: en
 timezone: ''
 
