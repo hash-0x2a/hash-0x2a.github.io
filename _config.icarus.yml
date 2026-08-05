@@ -246,7 +246,7 @@ widgets:
         # Author name
         author: '0x2a'
         # Author title
-        author_title: Your title
+        author_title: 'Good or bad, hard to say'
         # Author's current location
         location: China
         # URL or path to the avatar image
