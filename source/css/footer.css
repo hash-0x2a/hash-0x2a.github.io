@@ -1,0 +1,24 @@
+/* =================================
+ *         Footer Layout
+ * =================================
+ * Logo 与版权声明并排、垂直居中；
+ * 移动端自动堆叠并居中。
+ */
+footer.footer .level-start {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+}
+
+footer.footer .level-start .footer-logo {
+    margin-bottom: 0 !important;
+}
+
+@media (max-width: 768px) {
+    footer.footer .level-start {
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 0.5rem;
+    }
+}

@@ -7,7 +7,7 @@ title: 0x2a's Blog
 subtitle: 'A blog about technology and programming'
 description: 'this is 0x2a blog, welcome to visit, hope you can find something useful here.'
 keywords: 
-author: 0x2a
+author: '0x2a'
 language: en
 timezone: ''
 
@@ -110,8 +110,11 @@ encrypt:
   abstract: 这篇文章已加密，请输入密码后查看。
   message: 请输入密码
   wrong_pass_message: 密码错误，请重试。
-  # 是否在首页列表中也加密摘要（true 时首页也只显示密码框）
-  template: <div id="hbe-security"><div class="hbe-input-container"><input type="password" id="pass" placeholder="请输入密码"><button id="hbe-btn" onclick="decryptAES()">确认</button></div></div></div></div>
+  # 加密主题（可选：blink, default, flip, shrink, surge, up, wave, xray）
+  theme: default
+  # KDF 迭代次数（OWASP 推荐 ≥ 600000）
+  kdf:
+    iterations: 600000
   # 按标签加密：所有带有该标签的文章都要求密码
   # encrypt_tags:
   #   - 私密

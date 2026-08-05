@@ -114,11 +114,11 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/hash-0x2a
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: © 2019
+    copyright: ''
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
@@ -129,7 +129,7 @@ footer:
             url: https://creativecommons.org/licenses/by/4.0/
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/hash-0x2a
 # Article related configurations
 article:
     # Code highlight settings
@@ -223,9 +223,7 @@ comment:
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
-    type: sharethis
-    # URL to the ShareThis share plugin script
-    install_url: ''
+    type: addtoany
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -250,7 +248,7 @@ widgets:
         # Author title
         author_title: Your title
         # Author's current location
-        location: Your location
+        location: China
         # URL or path to the avatar image
         avatar: /img/avatar-logo.svg
         # Whether show the rounded avatar image
