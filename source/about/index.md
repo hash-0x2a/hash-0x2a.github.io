@@ -31,6 +31,7 @@ date: 2026-08-05
 ## 📬 Contact
 
 - **GitHub**: [hash-0x2a](https://github.com/hash-0x2a)
+- **Email**: <admin@0x2a.site>
 - **RSS**: [订阅博客更新](/atom.xml)
 
 欢迎在评论区或 GitHub 上与我交流，也欢迎对文章内容提出建议和指正！
